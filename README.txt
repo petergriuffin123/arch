@@ -24,6 +24,7 @@ amd
 sudo pacman -S mesa xf86-video-amdgpu
 
 nvidia
+uh if you want the other driver command with the kernel stuff idk then don't run this, you'll fuck your install and you'll have to reinstall arch (huge pain)
 sudo pacman -S nvidia nvidia-utils
 but since nvidia drivers kinda break with kernel updates i'd recommend
 sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings
@@ -84,3 +85,4 @@ if you don't have internet somehow (even if ethernet is plugged in)
 sudo pacman -S networkmanager
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
+
