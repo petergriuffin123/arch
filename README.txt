@@ -1,7 +1,7 @@
 hey, you're in the readme
 
 follow the pdf tutorial to install it
-
+if you don't have the pdf, you can just go to https://wiki.archlinux.org/title/Installation_guide i guess since it's the same thing
 
 once installed, this is how to install a desktop environment:
 
@@ -70,6 +70,7 @@ systemctl status lightdm
 if you don't have internet somehow (even if ethernet is plugged in)
 sudo pacman -S networkmanager
 sudo systemctl enable NetworkManager
+
 
 
 
