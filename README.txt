@@ -80,6 +80,7 @@ also you should probably run these, though they're not required for a working de
 sudo pacman -Syu
 sudo pacman -S firefox
 since arch is a minimal distro you don't get all your nice preinstalled stuff like a normal distro so you gotta install everything yourself
+also remember to run sudo payman -Syu kinda often to keep your system up to date, or don't, i'm not telling you what to do i'm just saying you'll probably wanna update your system
 
 if you don't have internet somehow (even if ethernet is plugged in)
 sudo pacman -S networkmanager
