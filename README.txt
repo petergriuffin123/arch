@@ -2,6 +2,8 @@ hey, you're in the readme
 
 follow the pdf tutorial to install it
 if you don't have the pdf, you can just go to https://wiki.archlinux.org/title/Installation_guide i guess since it's the same thing
+or you can use archinstall i guess but with archinstall you can just install a desktop environment easily so i guess what's the point of this guide
+but even if you do go for arch install you should probably still sudo pacman -Syu every so often and also install whatever programs like sudo pacman -S firefox or something, man idk what you're gonna be installing so just look up the package name of whatever and sudo pacman -S <packagename> i guess
 
 if something breaks, read the wiki, if it breaks again, read it again
 anything breaking is probably your fault just saying
@@ -86,5 +88,3 @@ if you don't have internet somehow (even if ethernet is plugged in)
 sudo pacman -S networkmanager
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
-
-
